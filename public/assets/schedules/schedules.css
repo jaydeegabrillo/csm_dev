@@ -1,0 +1,113 @@
+.calendar__week {
+    /*  */
+    display: block;
+    width: 100%;
+    padding: 0;
+}
+
+.calendar__day {
+    display: inline-block;
+    border: 1px solid #20aee3;
+    width: 14%;
+    text-align: center;
+    cursor:pointer; 
+    padding-bottom: 1%;
+}
+
+.top-bar__days {
+    display: inline-block;
+    border: 1px solid #20aee3;
+    width: 14%;
+    text-align: center;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 0px;
+    color: #fff;
+    background: #20aee3;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.calendar {
+    float: left;
+    margin-bottom: 0px;
+}
+
+span.calendar__date {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+span.calendar__task {
+    border: 1px solid #20aee3;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+span.calendar__task.expired_task {
+    background: #d1343b;
+    border: 1px solid #d1343b;
+    color: #fff;
+}
+
+span.calendar__task.upcoming_task {
+    background: #37d134;
+    border: 1px solid #37d134;
+    color: #fff;
+}
+
+ul.sidebar__list {
+    width: 90%;
+    border-radius: 5px;
+    list-style-type: none;
+}
+
+h2.sidebar__heading {
+    width: 90%;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.no-event .calendar__task, .today .calendar__task{
+    background: #fff;
+    color: #303030;
+}
+
+.event .calendar__task {
+    background: #20aee3;
+    color: #fff;
+}
+
+.title-bar__month {
+    display: inline-block;
+}
+
+.title-bar__year {
+    display: inline-block;
+}
+
+aside#event_list {
+    display: inline-block;
+    width: 24%;
+    vertical-align: top;
+}
+
+section.calendar__days {
+    display: inline-block;
+    width: 75%;
+}
+
+li.sidebar__list-item.sidebar__list-item--complete {
+    color: #6a6969;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li.sidebar__list-item {
+    font-size: 20px;
+    font-weight: 500;
+}

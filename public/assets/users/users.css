@@ -1,0 +1,8 @@
+span.text-red{
+    color: #ff5c6c
+}
+
+span.duplicate_email, span.duplicate_username {
+    color: #ff5c6c;
+    display:none;
+}

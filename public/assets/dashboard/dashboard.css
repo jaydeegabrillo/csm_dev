@@ -1,0 +1,22 @@
+.clock_red {
+    background: #ff7d7d;
+}
+
+.clock_green {
+    background: #94ff94;
+}
+
+span.clock_in {
+    cursor: pointer;
+}
+
+.clock_green, .clock_red {
+    /* Firefox */
+    -moz-transition: all 0.5s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.5s ease-in;
+    /* Opera */
+    -o-transition: all 0.5s ease-in;
+    /* Standard */
+    transition: all 0.5s ease-in;
+}
