@@ -1,0 +1,146 @@
+ERROR - 2022-09-26 23:25:02 --> mysqli_sql_exception: Unknown column 'position' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\csm\Modules\Users\Controllers\UsersController.php(90): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->save_user()
+#6 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+#7 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-26 23:25:24 --> mysqli_sql_exception: Unknown column 'position' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\csm\Modules\Users\Controllers\UsersController.php(90): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->save_user()
+#6 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+#7 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-26 23:26:47 --> mysqli_sql_exception: Unknown column 'position' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\csm\Modules\Users\Controllers\UsersController.php(90): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->save_user()
+#6 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+#7 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 23:31:26 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::limit() must be of the type int or null, string given, called in C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 209
+in SYSTEMPATH\Database\BaseBuilder.php on line 1460.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(209): CodeIgniter\Database\BaseBuilder->limit('NaN', 'NaN')
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 3 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 4 ROOTPATH\Modules\Users\Controllers\UsersController.php(47): Hermawan\DataTables\DataTable->toJson()
+ 5 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->ajaxDataTables()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 23:31:26 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::limit() must be of the type int or null, string given, called in C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 209
+in SYSTEMPATH\Database\BaseBuilder.php on line 1460.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(209): CodeIgniter\Database\BaseBuilder->limit('NaN', 'NaN')
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 3 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 4 ROOTPATH\Modules\Users\Controllers\UsersController.php(47): Hermawan\DataTables\DataTable->toJson()
+ 5 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->ajaxDataTables()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 23:31:26 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::limit() must be of the type int or null, string given, called in C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 209
+in SYSTEMPATH\Database\BaseBuilder.php on line 1460.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(209): CodeIgniter\Database\BaseBuilder->limit('NaN', 'NaN')
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 3 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 4 ROOTPATH\Modules\Users\Controllers\UsersController.php(47): Hermawan\DataTables\DataTable->toJson()
+ 5 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->ajaxDataTables()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 23:31:26 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::limit() must be of the type int or null, string given, called in C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 209
+in SYSTEMPATH\Database\BaseBuilder.php on line 1460.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(209): CodeIgniter\Database\BaseBuilder->limit('NaN', 'NaN')
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 3 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 4 ROOTPATH\Modules\Users\Controllers\UsersController.php(47): Hermawan\DataTables\DataTable->toJson()
+ 5 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->ajaxDataTables()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 23:31:26 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::limit() must be of the type int or null, string given, called in C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 209
+in SYSTEMPATH\Database\BaseBuilder.php on line 1460.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(209): CodeIgniter\Database\BaseBuilder->limit('NaN', 'NaN')
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 3 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 4 ROOTPATH\Modules\Users\Controllers\UsersController.php(47): Hermawan\DataTables\DataTable->toJson()
+ 5 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->ajaxDataTables()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 23:31:26 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::limit() must be of the type int or null, string given, called in C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 209
+in SYSTEMPATH\Database\BaseBuilder.php on line 1460.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(209): CodeIgniter\Database\BaseBuilder->limit('NaN', 'NaN')
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 3 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 4 ROOTPATH\Modules\Users\Controllers\UsersController.php(47): Hermawan\DataTables\DataTable->toJson()
+ 5 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->ajaxDataTables()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 23:31:26 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::limit() must be of the type int or null, string given, called in C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 209
+in SYSTEMPATH\Database\BaseBuilder.php on line 1460.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(209): CodeIgniter\Database\BaseBuilder->limit('NaN', 'NaN')
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 3 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 4 ROOTPATH\Modules\Users\Controllers\UsersController.php(47): Hermawan\DataTables\DataTable->toJson()
+ 5 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->ajaxDataTables()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 23:31:26 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::limit() must be of the type int or null, string given, called in C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 209
+in SYSTEMPATH\Database\BaseBuilder.php on line 1460.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(209): CodeIgniter\Database\BaseBuilder->limit('NaN', 'NaN')
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 3 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 4 ROOTPATH\Modules\Users\Controllers\UsersController.php(47): Hermawan\DataTables\DataTable->toJson()
+ 5 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->ajaxDataTables()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 23:31:26 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::limit() must be of the type int or null, string given, called in C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 209
+in SYSTEMPATH\Database\BaseBuilder.php on line 1460.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(209): CodeIgniter\Database\BaseBuilder->limit('NaN', 'NaN')
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 3 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 4 ROOTPATH\Modules\Users\Controllers\UsersController.php(47): Hermawan\DataTables\DataTable->toJson()
+ 5 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->ajaxDataTables()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 23:31:26 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::limit() must be of the type int or null, string given, called in C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 209
+in SYSTEMPATH\Database\BaseBuilder.php on line 1460.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(209): CodeIgniter\Database\BaseBuilder->limit('NaN', 'NaN')
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 3 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 4 ROOTPATH\Modules\Users\Controllers\UsersController.php(47): Hermawan\DataTables\DataTable->toJson()
+ 5 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->ajaxDataTables()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 23:31:26 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::limit() must be of the type int or null, string given, called in C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 209
+in SYSTEMPATH\Database\BaseBuilder.php on line 1460.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(209): CodeIgniter\Database\BaseBuilder->limit('NaN', 'NaN')
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 3 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 4 ROOTPATH\Modules\Users\Controllers\UsersController.php(47): Hermawan\DataTables\DataTable->toJson()
+ 5 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->ajaxDataTables()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

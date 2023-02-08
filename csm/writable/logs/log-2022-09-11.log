@@ -1,0 +1,320 @@
+ERROR - 2022-09-11 18:33:44 --> mysqli_sql_exception: Unknown column 'p.title' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\Modules\Assignments\Models\AssignmentsModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(37): Modules\Assignments\Models\AssignmentsModel->assignments()
+#6 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+#7 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#8 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-11 18:33:54 --> mysqli_sql_exception: Unknown column 'p.title' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\Modules\Assignments\Models\AssignmentsModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(37): Modules\Assignments\Models\AssignmentsModel->assignments()
+#6 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+#7 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#8 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-11 18:33:54 --> Call to a member function getResult() on bool
+in ROOTPATH\Modules\Assignments\Models\AssignmentsModel.php on line 44.
+ 1 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(37): Modules\Assignments\Models\AssignmentsModel->assignments()
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-11 18:53:57 --> mysqli_sql_exception: Unknown column 'p.title' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\Modules\Assignments\Models\AssignmentsModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(37): Modules\Assignments\Models\AssignmentsModel->assignments()
+#6 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+#7 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#8 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-11 18:53:57 --> Call to a member function getResult() on bool
+in ROOTPATH\Modules\Assignments\Models\AssignmentsModel.php on line 44.
+ 1 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(37): Modules\Assignments\Models\AssignmentsModel->assignments()
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-11 19:14:03 --> __clone method called on non-object
+in VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php on line 240.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(null)
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(35): Hermawan\DataTables\DataTableColumnDefs->__construct(null)
+ 3 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(46): Hermawan\DataTables\DataTable->__construct(null)
+ 4 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(39): Hermawan\DataTables\DataTable::of(null)
+ 5 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-11 19:24:41 --> mysqli_sql_exception: Unknown column 'u' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+#9 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#10 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-11 19:24:41 --> Call to a member function getResult() on bool
+in VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 219.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 3 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-11 19:24:51 --> mysqli_sql_exception: Unknown column 'u' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+#9 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#10 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-11 19:24:51 --> Call to a member function getResult() on bool
+in VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 219.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 3 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-11 19:27:23 --> mysqli_sql_exception: Column 'first_name' in order clause is ambiguous in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+#9 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#10 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-11 19:27:23 --> Call to a member function getResult() on bool
+in VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 219.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 3 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-11 19:28:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::last_query()
+in ROOTPATH\Modules\Assignments\Models\AssignmentsModel.php on line 43.
+ 1 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(37): Modules\Assignments\Models\AssignmentsModel->assignments()
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-11 19:41:25 --> mysqli_sql_exception: Column 'first_name' in order clause is ambiguous in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+#9 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#10 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-11 19:41:25 --> Call to a member function getResult() on bool
+in VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 219.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 3 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-11 19:42:28 --> Property CodeIgniter\Database\MySQLi\Result::$QBSelect does not exist
+in VENDORPATH\hermawan\codeigniter4-datatables\src\Helper.php on line 9.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Object(CodeIgniter\Database\MySQLi\Result), 'QBSelect')
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Object(CodeIgniter\Database\MySQLi\Result), 'QBSelect')
+ 3 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Object(CodeIgniter\Database\MySQLi\Result))
+ 4 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(35): Hermawan\DataTables\DataTableColumnDefs->__construct(Object(CodeIgniter\Database\MySQLi\Result))
+ 5 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(46): Hermawan\DataTables\DataTable->__construct(Object(CodeIgniter\Database\MySQLi\Result))
+ 6 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(39): Hermawan\DataTables\DataTable::of(Object(CodeIgniter\Database\MySQLi\Result))
+ 7 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-11 19:42:33 --> Property CodeIgniter\Database\MySQLi\Result::$QBSelect does not exist
+in VENDORPATH\hermawan\codeigniter4-datatables\src\Helper.php on line 9.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Object(CodeIgniter\Database\MySQLi\Result), 'QBSelect')
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Object(CodeIgniter\Database\MySQLi\Result), 'QBSelect')
+ 3 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Object(CodeIgniter\Database\MySQLi\Result))
+ 4 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(35): Hermawan\DataTables\DataTableColumnDefs->__construct(Object(CodeIgniter\Database\MySQLi\Result))
+ 5 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(46): Hermawan\DataTables\DataTable->__construct(Object(CodeIgniter\Database\MySQLi\Result))
+ 6 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(39): Hermawan\DataTables\DataTable::of(Object(CodeIgniter\Database\MySQLi\Result))
+ 7 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-11 19:43:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+in ROOTPATH\Modules\Assignments\Models\AssignmentsModel.php on line 42.
+ 1 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(37): Modules\Assignments\Models\AssignmentsModel->assignments()
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-11 19:43:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+in ROOTPATH\Modules\Assignments\Models\AssignmentsModel.php on line 42.
+ 1 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(37): Modules\Assignments\Models\AssignmentsModel->assignments()
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-11 20:19:32 --> mysqli_sql_exception: Unknown column 'u.first_name' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+#9 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#10 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-11 20:19:32 --> Call to a member function getResult() on bool
+in VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 219.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 3 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-11 21:15:11 --> syntax error, unexpected '' as inclusive_dates, '' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+in ROOTPATH\Modules\Assignments\Models\AssignmentsModel.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('ROOTPATH\\Modules\\Assignments\\Models\\AssignmentsModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\Assignments\\Models\\AssignmentsModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\Assignments\\Models\\AssignmentsModel')
+ 4 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(17): spl_autoload_call('Modules\\Assignments\\Models\\AssignmentsModel')
+ 5 SYSTEMPATH\CodeIgniter.php(860): Modules\Assignments\Controllers\AssignmentsController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-11 21:15:41 --> syntax error, unexpected '' AS inclusive_dates, '' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+in ROOTPATH\Modules\Assignments\Models\AssignmentsModel.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('ROOTPATH\\Modules\\Assignments\\Models\\AssignmentsModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\Assignments\\Models\\AssignmentsModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\Assignments\\Models\\AssignmentsModel')
+ 4 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(17): spl_autoload_call('Modules\\Assignments\\Models\\AssignmentsModel')
+ 5 SYSTEMPATH\CodeIgniter.php(860): Modules\Assignments\Controllers\AssignmentsController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-11 22:01:29 --> mysqli_sql_exception: Table 'csm.positions' doesn't exist in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `t...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `t...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `t...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `t...', Array, false)
+#4 C:\laragon\www\csm\Modules\Assignments\Models\AssignmentsModel.php(66): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(25): Modules\Assignments\Models\AssignmentsModel->get_positions()
+#6 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->index()
+#7 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#8 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-11 22:01:29 --> Call to a member function getResult() on bool
+in ROOTPATH\Modules\Assignments\Models\AssignmentsModel.php on line 66.
+ 1 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(25): Modules\Assignments\Models\AssignmentsModel->get_positions()
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-11 22:02:02 --> mysqli_sql_exception: Table 'csm.positions' doesn't exist in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\csm\Modules\Assignments\Models\AssignmentsModel.php(66): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(25): Modules\Assignments\Models\AssignmentsModel->get_positions()
+#6 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->index()
+#7 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#8 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-11 22:02:02 --> Call to a member function getResult() on bool
+in ROOTPATH\Modules\Assignments\Models\AssignmentsModel.php on line 66.
+ 1 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(25): Modules\Assignments\Models\AssignmentsModel->get_positions()
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-11 22:02:22 --> mysqli_sql_exception: Table 'csm.positions' doesn't exist in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\csm\Modules\Assignments\Models\AssignmentsModel.php(66): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(25): Modules\Assignments\Models\AssignmentsModel->get_positions()
+#6 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->index()
+#7 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#8 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-11 22:02:22 --> Call to a member function getResult() on bool
+in ROOTPATH\Modules\Assignments\Models\AssignmentsModel.php on line 66.
+ 1 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(25): Modules\Assignments\Models\AssignmentsModel->get_positions()
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-11 23:47:23 --> mysqli_sql_exception: Unknown column 'client_name' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `as...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `as...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `as...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `as...', Array, false)
+#4 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(63): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->save_assignment()
+#6 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#7 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}

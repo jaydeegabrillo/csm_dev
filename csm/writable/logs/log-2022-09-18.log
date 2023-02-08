@@ -1,0 +1,38 @@
+ERROR - 2022-09-18 18:16:24 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', 'password', 'csm', 3306, '', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, CO...', Array, false)
+#4 C:\laragon\www\csm\Modules\Assignments\Models\AssignmentsModel.php(60): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(23): Modules\Assignments\Models\AssignmentsModel->get_clients()
+#6 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->index()
+#7 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#8 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using ****: YES) in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, CO...', Array, false)
+#3 C:\laragon\www\csm\Modules\Assignments\Models\AssignmentsModel.php(60): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(23): Modules\Assignments\Models\AssignmentsModel->get_clients()
+#5 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->index()
+#6 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#7 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-18 18:16:24 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using ****: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, CONCAT(first_name, " ", last_name) AS name
+FROM `clients`', [], false)
+ 3 ROOTPATH\Modules\Assignments\Models\AssignmentsModel.php(60): CodeIgniter\Database\BaseBuilder->get()
+ 4 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(23): Modules\Assignments\Models\AssignmentsModel->get_clients()
+ 5 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

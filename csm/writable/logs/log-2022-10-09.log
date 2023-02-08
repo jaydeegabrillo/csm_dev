@@ -1,0 +1,201 @@
+CRITICAL - 2022-10-09 18:40:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::whre()
+in ROOTPATH\Modules\Dashboard\Models\DashboardModel.php on line 64.
+ 1 ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php(65): Modules\Dashboard\Models\DashboardModel->timesheet()
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->ajaxDataTables()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-09 21:16:59 --> mysqli_sql_exception: Unknown column 'd.assignment_id' in 'on clause' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(53): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(174): Hermawan\DataTables\DataTableQuery->countAll()
+#6 C:\laragon\www\csm\Modules\Dashboard\Controllers\DashboardController.php(108): Hermawan\DataTables\DataTable->toJson()
+#7 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->ajaxDataTables()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+#9 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-09 21:16:59 --> mysqli_sql_exception: Unknown column 'd.assignment_id' in 'on clause' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\csm\Modules\Dashboard\Controllers\DashboardController.php(108): Hermawan\DataTables\DataTable->toJson()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->ajaxDataTables()
+#9 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+#10 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-10-09 21:16:59 --> Call to a member function getResult() on bool
+in VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 219.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 3 ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php(108): Hermawan\DataTables\DataTable->toJson()
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->ajaxDataTables()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-09 21:23:44 --> mysqli_sql_exception: Unknown column 'd.assignment_id' in 'on clause' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(53): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(174): Hermawan\DataTables\DataTableQuery->countAll()
+#6 C:\laragon\www\csm\Modules\Dashboard\Controllers\DashboardController.php(108): Hermawan\DataTables\DataTable->toJson()
+#7 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->ajaxDataTables()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+#9 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-09 21:23:44 --> mysqli_sql_exception: Unknown column 'd.assignment_id' in 'on clause' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\csm\Modules\Dashboard\Controllers\DashboardController.php(108): Hermawan\DataTables\DataTable->toJson()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->ajaxDataTables()
+#9 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+#10 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-10-09 21:23:44 --> Call to a member function getResult() on bool
+in VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 219.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 3 ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php(108): Hermawan\DataTables\DataTable->toJson()
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->ajaxDataTables()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-09 21:23:54 --> mysqli_sql_exception: Unknown column 'd.assignment_id' in 'on clause' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(53): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(174): Hermawan\DataTables\DataTableQuery->countAll()
+#6 C:\laragon\www\csm\Modules\Dashboard\Controllers\DashboardController.php(108): Hermawan\DataTables\DataTable->toJson()
+#7 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->ajaxDataTables()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+#9 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-09 21:23:54 --> mysqli_sql_exception: Unknown column 'd.assignment_id' in 'on clause' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\csm\Modules\Dashboard\Controllers\DashboardController.php(108): Hermawan\DataTables\DataTable->toJson()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->ajaxDataTables()
+#9 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+#10 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-10-09 21:23:54 --> Call to a member function getResult() on bool
+in VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 219.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 3 ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php(108): Hermawan\DataTables\DataTable->toJson()
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->ajaxDataTables()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-09 21:29:17 --> mysqli_sql_exception: Unknown column 'd.assignment_id' in 'on clause' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(53): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(174): Hermawan\DataTables\DataTableQuery->countAll()
+#6 C:\laragon\www\csm\Modules\Dashboard\Controllers\DashboardController.php(108): Hermawan\DataTables\DataTable->toJson()
+#7 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->ajaxDataTables()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+#9 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-09 21:29:17 --> mysqli_sql_exception: Unknown column 'd.assignment_id' in 'on clause' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\csm\Modules\Dashboard\Controllers\DashboardController.php(108): Hermawan\DataTables\DataTable->toJson()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->ajaxDataTables()
+#9 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+#10 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-10-09 21:29:17 --> Call to a member function getResult() on bool
+in VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 219.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 3 ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php(108): Hermawan\DataTables\DataTable->toJson()
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->ajaxDataTables()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-09 21:40:56 --> Undefined variable: loginModel
+in APPPATH\Controllers\Login.php on line 21.
+ 1 APPPATH\Controllers\Login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: loginModel', 'APPPATH\\Controllers\\Login.php', 21, [])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-09 23:03:43 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\LoginModel.php on line 72.
+ 1 APPPATH\Controllers\Login.php(60): App\Models\LoginModel->user_daily_log('1')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-09 23:03:52 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\LoginModel.php on line 72.
+ 1 APPPATH\Controllers\Login.php(60): App\Models\LoginModel->user_daily_log('1')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-09 23:06:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\LoginModel.php on line 66.
+ 1 APPPATH\Controllers\Login.php(60): App\Models\LoginModel->user_daily_log('1')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-09 23:07:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\LoginModel.php on line 66.
+ 1 APPPATH\Controllers\Login.php(60): App\Models\LoginModel->user_daily_log('1')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-09 23:07:41 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::from()
+in APPPATH\Models\LoginModel.php on line 66.
+ 1 APPPATH\Controllers\Login.php(60): App\Models\LoginModel->user_daily_log('1')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

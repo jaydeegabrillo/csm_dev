@@ -1,0 +1,16 @@
+CRITICAL - 2022-09-20 00:05:09 --> Undefined variable: position
+in ROOTPATH\Modules\Assignments\Models\AssignmentsModel.php on line 72.
+ 1 ROOTPATH\Modules\Assignments\Models\AssignmentsModel.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: position', 'ROOTPATH\\Modules\\Assignments\\Models\\AssignmentsModel.php', 72, [...])
+ 2 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(101): Modules\Assignments\Models\AssignmentsModel->get_availability([...])
+ 3 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->get_staff()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 00:08:08 --> Undefined variable: position
+in ROOTPATH\Modules\Assignments\Models\AssignmentsModel.php on line 72.
+ 1 ROOTPATH\Modules\Assignments\Models\AssignmentsModel.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: position', 'ROOTPATH\\Modules\\Assignments\\Models\\AssignmentsModel.php', 72, [...])
+ 2 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(101): Modules\Assignments\Models\AssignmentsModel->get_availability([...])
+ 3 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->get_staff()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

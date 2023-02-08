@@ -1,0 +1,20 @@
+CRITICAL - 2022-08-22 20:26:30 --> Undefined variable: minutes
+in ROOTPATH\Modules\Timesheet\Controllers\TimesheetController.php on line 69.
+ 1 ROOTPATH\Modules\Timesheet\Controllers\TimesheetController.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: minutes', 'ROOTPATH\\Modules\\Timesheet\\Controllers\\TimesheetController.php', 69, [...])
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(91): Modules\Timesheet\Controllers\TimesheetController->Modules\Timesheet\Controllers\{closure}(Object(stdClass))
+ 3 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 4 ROOTPATH\Modules\Timesheet\Controllers\TimesheetController.php(71): Hermawan\DataTables\DataTable->toJson()
+ 5 SYSTEMPATH\CodeIgniter.php(898): Modules\Timesheet\Controllers\TimesheetController->ajaxDataTables()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Timesheet\Controllers\TimesheetController))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-22 20:27:44 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('ROOTPATH\\Modules\\Users\\Controllers\\UsersController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\Users\\Controllers\\UsersController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\Users\\Controllers\\UsersController')
+ 4 [internal function]: spl_autoload_call('Modules\\Users\\Controllers\\UsersController')
+ 5 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\Modules\\Users\\Controllers\\UsersController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

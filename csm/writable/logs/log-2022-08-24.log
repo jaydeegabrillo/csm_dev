@@ -1,0 +1,106 @@
+CRITICAL - 2022-08-24 00:00:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+in ROOTPATH\Modules\Users\Models\UsersModel.php on line 16.
+ 1 ROOTPATH\Modules\Users\Controllers\UsersController.php(54): Modules\Users\Models\UsersModel->check_user('test@test.com')
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->add_user()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-24 00:08:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@test.com' at line 1 in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 C:\laragon\www\csm\Modules\Users\Models\UsersModel.php(17): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 C:\laragon\www\csm\Modules\Users\Controllers\UsersController.php(54): Modules\Users\Models\UsersModel->check_user('test@test.com')
+#5 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->add_user()
+#6 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+#7 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-24 00:08:06 --> Call to a member function getResultArray() on bool
+in ROOTPATH\Modules\Users\Models\UsersModel.php on line 17.
+ 1 ROOTPATH\Modules\Users\Controllers\UsersController.php(54): Modules\Users\Models\UsersModel->check_user('test@test.com')
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->add_user()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-24 00:24:49 --> Access level to Modules\Users\Models\UsersModel::$db must be protected (as in class CodeIgniter\Model) or weaker
+in ROOTPATH\Modules\Users\Models\UsersModel.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-24 00:24:53 --> Access level to Modules\Users\Models\UsersModel::$db must be protected (as in class CodeIgniter\Model) or weaker
+in ROOTPATH\Modules\Users\Models\UsersModel.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-24 00:25:18 --> Access level to Modules\Users\Models\UsersModel::$db must be protected (as in class CodeIgniter\Model) or weaker
+in ROOTPATH\Modules\Users\Models\UsersModel.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-24 00:37:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::update()
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->add_user()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-24 00:37:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::update()
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->add_user()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-24 00:39:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->add_user()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-24 00:44:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->add_user()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-24 01:17:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+in ROOTPATH\Modules\Users\Models\UsersModel.php on line 34.
+ 1 ROOTPATH\Modules\Users\Controllers\UsersController.php(58): Modules\Users\Models\UsersModel->add_user([...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->add_user()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-24 01:18:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::set()
+in ROOTPATH\Modules\Users\Models\UsersModel.php on line 34.
+ 1 ROOTPATH\Modules\Users\Controllers\UsersController.php(58): Modules\Users\Models\UsersModel->add_user([...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->add_user()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-24 01:26:40 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::set()
+in ROOTPATH\Modules\Users\Models\UsersModel.php on line 61.
+ 1 ROOTPATH\Modules\Users\Controllers\UsersController.php(58): Modules\Users\Models\UsersModel->add_user([...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->add_user()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-24 01:57:51 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::save()
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->add_user()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-24 21:07:14 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->add_user()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-24 21:50:20 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::insert() must be of the type bool or null, array given, called in C:\laragon\www\csm\Modules\Users\Controllers\UsersController.php on line 59
+in SYSTEMPATH\Database\BaseBuilder.php on line 1892.
+ 1 ROOTPATH\Modules\Users\Controllers\UsersController.php(59): CodeIgniter\Database\BaseBuilder->insert('users', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->add_user()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-24 23:49:05 --> Undefined variable: data
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 58.
+ 1 ROOTPATH\Modules\Users\Controllers\UsersController.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'ROOTPATH\\Modules\\Users\\Controllers\\UsersController.php', 58, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->add_user()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

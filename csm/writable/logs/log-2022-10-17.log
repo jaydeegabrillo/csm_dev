@@ -1,0 +1,107 @@
+CRITICAL - 2022-10-17 00:19:15 --> A non well formed numeric value encountered
+in ROOTPATH\Modules\Timesheet\Views\timesheet_pdf.php on line 72.
+ 1 ROOTPATH\Modules\Timesheet\Views\timesheet_pdf.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'ROOTPATH\\Modules\\Timesheet\\Views\\timesheet_pdf.php', 72, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('ROOTPATH\\Modules\\Timesheet\\Views\\timesheet_pdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('\\Modules\\Timesheet\\Views\\timesheet_pdf', [], true)
+ 5 ROOTPATH\Modules\Timesheet\Controllers\TimesheetController.php(43): view('\\Modules\\Timesheet\\Views\\timesheet_pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): Modules\Timesheet\Controllers\TimesheetController->timesheet_pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Timesheet\Controllers\TimesheetController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 00:20:14 --> A non well formed numeric value encountered
+in ROOTPATH\Modules\Timesheet\Views\timesheet_pdf.php on line 73.
+ 1 ROOTPATH\Modules\Timesheet\Views\timesheet_pdf.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'ROOTPATH\\Modules\\Timesheet\\Views\\timesheet_pdf.php', 73, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('ROOTPATH\\Modules\\Timesheet\\Views\\timesheet_pdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('\\Modules\\Timesheet\\Views\\timesheet_pdf', [], true)
+ 5 ROOTPATH\Modules\Timesheet\Controllers\TimesheetController.php(43): view('\\Modules\\Timesheet\\Views\\timesheet_pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): Modules\Timesheet\Controllers\TimesheetController->timesheet_pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Timesheet\Controllers\TimesheetController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 00:20:57 --> A non well formed numeric value encountered
+in ROOTPATH\Modules\Timesheet\Views\timesheet_pdf.php on line 73.
+ 1 ROOTPATH\Modules\Timesheet\Views\timesheet_pdf.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'ROOTPATH\\Modules\\Timesheet\\Views\\timesheet_pdf.php', 73, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('ROOTPATH\\Modules\\Timesheet\\Views\\timesheet_pdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('\\Modules\\Timesheet\\Views\\timesheet_pdf', [], true)
+ 5 ROOTPATH\Modules\Timesheet\Controllers\TimesheetController.php(43): view('\\Modules\\Timesheet\\Views\\timesheet_pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): Modules\Timesheet\Controllers\TimesheetController->timesheet_pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Timesheet\Controllers\TimesheetController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 00:27:23 --> A non well formed numeric value encountered
+in ROOTPATH\Modules\Timesheet\Views\timesheet_pdf.php on line 73.
+ 1 ROOTPATH\Modules\Timesheet\Views\timesheet_pdf.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'ROOTPATH\\Modules\\Timesheet\\Views\\timesheet_pdf.php', 73, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('ROOTPATH\\Modules\\Timesheet\\Views\\timesheet_pdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('\\Modules\\Timesheet\\Views\\timesheet_pdf', [], true)
+ 5 ROOTPATH\Modules\Timesheet\Controllers\TimesheetController.php(43): view('\\Modules\\Timesheet\\Views\\timesheet_pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): Modules\Timesheet\Controllers\TimesheetController->timesheet_pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Timesheet\Controllers\TimesheetController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 00:47:04 --> A non well formed numeric value encountered
+in ROOTPATH\Modules\Timesheet\Controllers\TimesheetController.php on line 52.
+ 1 ROOTPATH\Modules\Timesheet\Controllers\TimesheetController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'ROOTPATH\\Modules\\Timesheet\\Controllers\\TimesheetController.php', 52, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Timesheet\Controllers\TimesheetController->timesheet_pdf()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Timesheet\Controllers\TimesheetController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 00:47:30 --> A non well formed numeric value encountered
+in ROOTPATH\Modules\Timesheet\Controllers\TimesheetController.php on line 52.
+ 1 ROOTPATH\Modules\Timesheet\Controllers\TimesheetController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'ROOTPATH\\Modules\\Timesheet\\Controllers\\TimesheetController.php', 52, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Timesheet\Controllers\TimesheetController->timesheet_pdf()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Timesheet\Controllers\TimesheetController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 01:04:30 --> A non well formed numeric value encountered
+in ROOTPATH\Modules\Timesheet\Controllers\TimesheetController.php on line 52.
+ 1 ROOTPATH\Modules\Timesheet\Controllers\TimesheetController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'ROOTPATH\\Modules\\Timesheet\\Controllers\\TimesheetController.php', 52, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Timesheet\Controllers\TimesheetController->timesheet_pdf()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Timesheet\Controllers\TimesheetController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 01:05:31 --> A non well formed numeric value encountered
+in ROOTPATH\Modules\Timesheet\Controllers\TimesheetController.php on line 52.
+ 1 ROOTPATH\Modules\Timesheet\Controllers\TimesheetController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'ROOTPATH\\Modules\\Timesheet\\Controllers\\TimesheetController.php', 52, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Timesheet\Controllers\TimesheetController->timesheet_pdf()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Timesheet\Controllers\TimesheetController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 01:05:51 --> A non well formed numeric value encountered
+in ROOTPATH\Modules\Timesheet\Controllers\TimesheetController.php on line 52.
+ 1 ROOTPATH\Modules\Timesheet\Controllers\TimesheetController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'ROOTPATH\\Modules\\Timesheet\\Controllers\\TimesheetController.php', 52, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Timesheet\Controllers\TimesheetController->timesheet_pdf()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Timesheet\Controllers\TimesheetController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 01:07:06 --> Undefined variable: total
+in ROOTPATH\Modules\Timesheet\Controllers\TimesheetController.php on line 53.
+ 1 ROOTPATH\Modules\Timesheet\Controllers\TimesheetController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total', 'ROOTPATH\\Modules\\Timesheet\\Controllers\\TimesheetController.php', 53, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Timesheet\Controllers\TimesheetController->timesheet_pdf()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Timesheet\Controllers\TimesheetController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 23:32:29 --> A non well formed numeric value encountered
+in ROOTPATH\Modules\Timesheet\Controllers\TimesheetController.php on line 60.
+ 1 ROOTPATH\Modules\Timesheet\Controllers\TimesheetController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'ROOTPATH\\Modules\\Timesheet\\Controllers\\TimesheetController.php', 60, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Timesheet\Controllers\TimesheetController->timesheet_pdf()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Timesheet\Controllers\TimesheetController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 23:55:13 --> Use of undefined constant params - assumed 'params' (this will throw an Error in a future version of PHP)
+in ROOTPATH\Modules\Timesheet\Controllers\TimesheetController.php on line 56.
+ 1 ROOTPATH\Modules\Timesheet\Controllers\TimesheetController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant params - assumed \'params\' (this will throw an Error in a future version of PHP)', 'ROOTPATH\\Modules\\Timesheet\\Controllers\\TimesheetController.php', 56, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Timesheet\Controllers\TimesheetController->timesheet_pdf()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Timesheet\Controllers\TimesheetController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 23:55:45 --> A non well formed numeric value encountered
+in ROOTPATH\Modules\Timesheet\Controllers\TimesheetController.php on line 54.
+ 1 ROOTPATH\Modules\Timesheet\Controllers\TimesheetController.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'ROOTPATH\\Modules\\Timesheet\\Controllers\\TimesheetController.php', 54, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Timesheet\Controllers\TimesheetController->timesheet_pdf()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Timesheet\Controllers\TimesheetController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,8 @@
+CRITICAL - 2022-09-13 09:52:06 --> Undefined variable: id
+in ROOTPATH\Modules\Assignments\Models\AssignmentsModel.php on line 48.
+ 1 ROOTPATH\Modules\Assignments\Models\AssignmentsModel.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', 'ROOTPATH\\Modules\\Assignments\\Models\\AssignmentsModel.php', 48, [...])
+ 2 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(87): Modules\Assignments\Models\AssignmentsModel->get_assignment('1')
+ 3 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->get_assignment()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

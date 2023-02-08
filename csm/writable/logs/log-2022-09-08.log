@@ -1,0 +1,554 @@
+ERROR - 2022-09-08 21:13:19 --> mysqli_sql_exception: Unknown column 'p.title' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(47): Hermawan\DataTables\DataTable->toJson()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+#9 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#10 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-08 21:13:19 --> Call to a member function getResult() on bool
+in VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 219.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 3 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(47): Hermawan\DataTables\DataTable->toJson()
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-08 21:13:27 --> mysqli_sql_exception: Unknown column 'p.title' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(47): Hermawan\DataTables\DataTable->toJson()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+#9 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#10 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-08 21:13:27 --> Call to a member function getResult() on bool
+in VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 219.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 3 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(47): Hermawan\DataTables\DataTable->toJson()
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-08 21:33:40 --> mysqli_sql_exception: Unknown column 'p.title' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(47): Hermawan\DataTables\DataTable->toJson()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+#9 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#10 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-08 21:33:40 --> Call to a member function getResult() on bool
+in VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 219.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 3 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(47): Hermawan\DataTables\DataTable->toJson()
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-08 21:34:19 --> mysqli_sql_exception: Unknown column 'p.title' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(47): Hermawan\DataTables\DataTable->toJson()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+#9 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#10 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-08 21:34:19 --> Call to a member function getResult() on bool
+in VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 219.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 3 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(47): Hermawan\DataTables\DataTable->toJson()
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-08 21:48:56 --> mysqli_sql_exception: Unknown column 'p.title' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+#9 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#10 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-08 21:48:56 --> Call to a member function getResult() on bool
+in VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 219.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 3 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-08 21:49:04 --> mysqli_sql_exception: Unknown column 'p.title' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+#9 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#10 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-08 21:49:04 --> Call to a member function getResult() on bool
+in VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 219.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 3 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-08 21:49:53 --> mysqli_sql_exception: Unknown column 'p.title' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+#9 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#10 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-08 21:49:53 --> Call to a member function getResult() on bool
+in VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 219.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 3 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-08 22:07:32 --> mysqli_sql_exception: Unknown column 'p.title' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+#9 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#10 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-08 22:07:32 --> Call to a member function getResult() on bool
+in VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 219.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 3 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-08 22:12:14 --> mysqli_sql_exception: Unknown column 'p.title' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+#9 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#10 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-08 22:12:14 --> Call to a member function getResult() on bool
+in VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 219.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 3 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-08 22:50:34 --> mysqli_sql_exception: Unknown column 'p.title' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+#9 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#10 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-08 22:50:34 --> Call to a member function getResult() on bool
+in VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 219.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 3 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-08 22:50:41 --> mysqli_sql_exception: Unknown column 'p.title' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+#9 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#10 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-08 22:50:41 --> Call to a member function getResult() on bool
+in VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 219.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 3 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-08 22:51:47 --> mysqli_sql_exception: Unknown column 'p.title' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+#9 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#10 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-08 22:51:47 --> Call to a member function getResult() on bool
+in VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 219.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 3 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-08 22:51:50 --> mysqli_sql_exception: Unknown column 'p.title' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+#9 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#10 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-08 22:51:50 --> Call to a member function getResult() on bool
+in VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 219.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 3 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-08 22:52:01 --> mysqli_sql_exception: Unknown column 'p.title' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+#9 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#10 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-08 22:52:01 --> Call to a member function getResult() on bool
+in VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 219.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 3 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-08 22:56:21 --> mysqli_sql_exception: Unknown column 'p.title' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+#9 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#10 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-08 22:56:21 --> Call to a member function getResult() on bool
+in VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 219.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 3 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-08 23:18:38 --> mysqli_sql_exception: Unknown column 'p.title' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+#9 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#10 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-08 23:18:38 --> Call to a member function getResult() on bool
+in VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 219.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 3 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-08 23:20:28 --> mysqli_sql_exception: Unknown column 'p.title' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+#9 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#10 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-08 23:20:28 --> Call to a member function getResult() on bool
+in VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 219.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 3 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-08 23:20:34 --> mysqli_sql_exception: Unknown column 'p.title' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+#9 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#10 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-08 23:20:34 --> Call to a member function getResult() on bool
+in VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 219.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 3 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-08 23:23:26 --> mysqli_sql_exception: Unknown column 'p.title' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+#9 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#10 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-08 23:23:26 --> Call to a member function getResult() on bool
+in VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 219.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 3 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-08 23:23:51 --> mysqli_sql_exception: Unknown column 'p.title' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+#9 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#10 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-08 23:23:51 --> Call to a member function getResult() on bool
+in VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 219.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 3 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-08 23:23:55 --> mysqli_sql_exception: Unknown column 'p.title' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\csm\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+#8 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+#9 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#10 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-08 23:23:55 --> Call to a member function getResult() on bool
+in VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php on line 219.
+ 1 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 3 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(44): Hermawan\DataTables\DataTable->toJson()
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-08 23:26:07 --> mysqli_sql_exception: Unknown column 'p.title' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\Modules\Assignments\Models\AssignmentsModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(37): Modules\Assignments\Models\AssignmentsModel->assignments()
+#6 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+#7 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#8 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-08 23:26:07 --> Call to a member function getResult() on bool
+in ROOTPATH\Modules\Assignments\Models\AssignmentsModel.php on line 43.
+ 1 ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php(37): Modules\Assignments\Models\AssignmentsModel->assignments()
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-08 23:27:34 --> mysqli_sql_exception: Unknown column 'p.title' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(39): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+#6 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#7 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-08 23:27:40 --> mysqli_sql_exception: Unknown column 'p.title' in 'field list' in C:\laragon\www\csm\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\csm\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`id`...', 0)
+#1 C:\laragon\www\csm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 C:\laragon\www\csm\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 C:\laragon\www\csm\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 C:\laragon\www\csm\Modules\Assignments\Controllers\AssignmentsController.php(39): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\csm\system\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+#6 C:\laragon\www\csm\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+#7 C:\laragon\www\csm\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\csm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-08 23:27:40 --> Call to a member function getResult() on bool
+in ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Assignments\Controllers\AssignmentsController->ajaxDataTables()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Assignments\Controllers\AssignmentsController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

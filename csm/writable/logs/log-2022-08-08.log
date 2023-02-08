@@ -1,0 +1,190 @@
+CRITICAL - 2022-08-08 00:18:09 --> Undefined property: App\Controllers\Login::$load
+in APPPATH\Controllers\Login.php on line 19.
+ 1 APPPATH\Controllers\Login.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Login::$load', 'APPPATH\\Controllers\\Login.php', 19, [])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 00:18:23 --> Undefined property: App\Controllers\Login::$load
+in APPPATH\Controllers\Login.php on line 14.
+ 1 APPPATH\Controllers\Login.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Login::$load', 'APPPATH\\Controllers\\Login.php', 14, [])
+ 2 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Login->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 00:18:32 --> Cannot call constructor
+in APPPATH\Controllers\Login.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 00:20:34 --> Class 'App\Controllers\CodeIgniter' not found
+in APPPATH\Controllers\Login.php on line 9.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Login.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Login')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Login')
+ 5 [internal function]: spl_autoload_call('App\\Controllers\\Login')
+ 6 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Login', true)
+ 7 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 00:20:40 --> Class 'CodeIgniter' not found
+in APPPATH\Controllers\Login.php on line 9.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Login.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Login')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Login')
+ 5 [internal function]: spl_autoload_call('App\\Controllers\\Login')
+ 6 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Login', true)
+ 7 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 00:21:57 --> Cannot call constructor
+in APPPATH\Controllers\Login.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 00:22:35 --> Cannot call constructor
+in APPPATH\Controllers\Login.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 00:22:46 --> Undefined property: App\Controllers\Login::$load
+in APPPATH\Controllers\Login.php on line 14.
+ 1 APPPATH\Controllers\Login.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Login::$load', 'APPPATH\\Controllers\\Login.php', 14, [])
+ 2 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Login->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 00:28:32 --> Call to undefined function App\Controllers\get_instance()
+in APPPATH\Controllers\Login.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 00:28:48 --> Call to undefined function App\Controllers\get_instance()
+in APPPATH\Controllers\Login.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 00:38:25 --> Undefined property: App\Controllers\Login::$load
+in APPPATH\Controllers\Login.php on line 16.
+ 1 APPPATH\Controllers\Login.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Login::$load', 'APPPATH\\Controllers\\Login.php', 16, [])
+ 2 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Login->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 20:36:32 --> Undefined property: App\Controllers\Login::$load
+in APPPATH\Controllers\Login.php on line 16.
+ 1 APPPATH\Controllers\Login.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Login::$load', 'APPPATH\\Controllers\\Login.php', 16, [])
+ 2 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Login->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 20:52:43 --> Undefined property: App\Controllers\Login::$load
+in APPPATH\Controllers\Login.php on line 16.
+ 1 APPPATH\Controllers\Login.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Login::$load', 'APPPATH\\Controllers\\Login.php', 16, [])
+ 2 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Login->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 20:52:50 --> Undefined property: App\Controllers\Login::$load
+in APPPATH\Controllers\Login.php on line 16.
+ 1 APPPATH\Controllers\Login.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Login::$load', 'APPPATH\\Controllers\\Login.php', 16, [])
+ 2 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Login->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 22:01:07 --> Undefined variable: title
+in APPPATH\Views\Defaults\sidebar.php on line 10.
+ 1 APPPATH\Views\Defaults\sidebar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'APPPATH\\Views\\Defaults\\sidebar.php', 10, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Defaults\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('defaults/sidebar', [], true)
+ 5 APPPATH\Controllers\Login.php(24): view('defaults/sidebar')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 22:07:57 --> Undefined variable: title
+in APPPATH\Views\Defaults\sidebar.php on line 10.
+ 1 APPPATH\Views\Defaults\sidebar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'APPPATH\\Views\\Defaults\\sidebar.php', 10, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Defaults\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('defaults/sidebar', [], true)
+ 5 APPPATH\Controllers\Login.php(24): view('defaults/sidebar')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 22:10:23 --> Undefined variable: title
+in APPPATH\Views\Defaults\sidebar.php on line 10.
+ 1 APPPATH\Views\Defaults\sidebar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'APPPATH\\Views\\Defaults\\sidebar.php', 10, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Defaults\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('defaults/sidebar', [], true)
+ 5 APPPATH\Controllers\Login.php(24): view('defaults/sidebar')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 22:11:00 --> Undefined variable: title
+in APPPATH\Views\Defaults\sidebar.php on line 5.
+ 1 APPPATH\Views\Defaults\sidebar.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'APPPATH\\Views\\Defaults\\sidebar.php', 5, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Defaults\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('defaults/sidebar', [], true)
+ 5 APPPATH\Controllers\Login.php(24): view('defaults/sidebar')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 22:11:02 --> Undefined variable: title
+in APPPATH\Views\Defaults\sidebar.php on line 5.
+ 1 APPPATH\Views\Defaults\sidebar.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'APPPATH\\Views\\Defaults\\sidebar.php', 5, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Defaults\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('defaults/sidebar', [], true)
+ 5 APPPATH\Controllers\Login.php(24): view('defaults/sidebar')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 22:11:11 --> Undefined variable: title
+in APPPATH\Views\Defaults\sidebar.php on line 5.
+ 1 APPPATH\Views\Defaults\sidebar.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'APPPATH\\Views\\Defaults\\sidebar.php', 5, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Defaults\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('defaults/sidebar', [], true)
+ 5 APPPATH\Controllers\Login.php(24): view('defaults/sidebar')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 22:11:18 --> Undefined variable: title
+in APPPATH\Views\Defaults\sidebar.php on line 5.
+ 1 APPPATH\Views\Defaults\sidebar.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'APPPATH\\Views\\Defaults\\sidebar.php', 5, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Defaults\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('defaults/sidebar', [], true)
+ 5 APPPATH\Controllers\Login.php(24): view('defaults/sidebar')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 23:08:52 --> Call to undefined function Modules\Users\Controllers\printa_r()
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 23:09:48 --> Call to undefined function Modules\Users\Controllers\printa_r()
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

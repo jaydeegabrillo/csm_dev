@@ -1,0 +1,10 @@
+CRITICAL - 2022-09-21 18:45:43 --> syntax error, unexpected '}'
+in ROOTPATH\Modules\Assignments\Controllers\AssignmentsController.php on line 121.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('ROOTPATH\\Modules\\Assignments\\Controllers\\AssignmentsController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\Assignments\\Controllers\\AssignmentsController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\Assignments\\Controllers\\AssignmentsController')
+ 4 [internal function]: spl_autoload_call('Modules\\Assignments\\Controllers\\AssignmentsController')
+ 5 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\Modules\\Assignments\\Controllers\\AssignmentsController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

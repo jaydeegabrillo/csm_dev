@@ -1,0 +1,32 @@
+CRITICAL - 2022-10-02 20:20:35 --> Undefined index: user_id
+in ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php on line 20.
+ 1 ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: user_id', 'ROOTPATH\\Modules\\Dashboard\\Controllers\\DashboardController.php', 20, [])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-02 22:20:01 --> Undefined property: Modules\Dashboard\Controllers\DashboardController::$clients_model
+in ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php on line 51.
+ 1 ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: Modules\\Dashboard\\Controllers\\DashboardController::$clients_model', 'ROOTPATH\\Modules\\Dashboard\\Controllers\\DashboardController.php', 51, [])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->ajaxDataTables()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-02 22:40:19 --> Class 'Modules\Dashboard\Controllers\DataTable' not found
+in ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->ajaxDataTables()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-02 22:44:08 --> Class 'Modules\Dashboard\Controllers\DataTable' not found
+in ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->ajaxDataTables()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-02 22:44:24 --> Class 'Modules\Dashboard\Controllers\DataTable' not found
+in ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->ajaxDataTables()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

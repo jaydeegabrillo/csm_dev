@@ -1,0 +1,320 @@
+CRITICAL - 2022-08-25 00:22:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+in ROOTPATH\Modules\Users\Models\UsersModel.php on line 48.
+ 1 ROOTPATH\Modules\Users\Controllers\UsersController.php(55): Modules\Users\Models\UsersModel->check_user([...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->add_user()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 00:23:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+in ROOTPATH\Modules\Users\Models\UsersModel.php on line 48.
+ 1 ROOTPATH\Modules\Users\Controllers\UsersController.php(55): Modules\Users\Models\UsersModel->check_user([...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->add_user()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 00:29:42 --> Undefined variable: sql
+in ROOTPATH\Modules\Users\Models\UsersModel.php on line 55.
+ 1 ROOTPATH\Modules\Users\Models\UsersModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sql', 'ROOTPATH\\Modules\\Users\\Models\\UsersModel.php', 55, [...])
+ 2 ROOTPATH\Modules\Users\Controllers\UsersController.php(55): Modules\Users\Models\UsersModel->check_user('test@test.com')
+ 3 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->add_user()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 00:32:20 --> Illegal string offset 'email'
+in ROOTPATH\Modules\Users\Models\UsersModel.php on line 47.
+ 1 ROOTPATH\Modules\Users\Models\UsersModel.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'email\'', 'ROOTPATH\\Modules\\Users\\Models\\UsersModel.php', 47, [...])
+ 2 ROOTPATH\Modules\Users\Controllers\UsersController.php(55): Modules\Users\Models\UsersModel->check_user('test@test.com')
+ 3 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->add_user()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 00:32:49 --> Illegal string offset 'email'
+in ROOTPATH\Modules\Users\Models\UsersModel.php on line 47.
+ 1 ROOTPATH\Modules\Users\Models\UsersModel.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'email\'', 'ROOTPATH\\Modules\\Users\\Models\\UsersModel.php', 47, [...])
+ 2 ROOTPATH\Modules\Users\Controllers\UsersController.php(55): Modules\Users\Models\UsersModel->check_user('test@test.com')
+ 3 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->add_user()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 00:33:00 --> Illegal string offset 'email'
+in ROOTPATH\Modules\Users\Models\UsersModel.php on line 47.
+ 1 ROOTPATH\Modules\Users\Models\UsersModel.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'email\'', 'ROOTPATH\\Modules\\Users\\Models\\UsersModel.php', 47, [...])
+ 2 ROOTPATH\Modules\Users\Controllers\UsersController.php(55): Modules\Users\Models\UsersModel->check_user('test@test.com')
+ 3 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->add_user()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 00:33:51 --> Illegal string offset 'email'
+in ROOTPATH\Modules\Users\Models\UsersModel.php on line 47.
+ 1 ROOTPATH\Modules\Users\Models\UsersModel.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'email\'', 'ROOTPATH\\Modules\\Users\\Models\\UsersModel.php', 47, [...])
+ 2 ROOTPATH\Modules\Users\Controllers\UsersController.php(55): Modules\Users\Models\UsersModel->check_user('test@test.com')
+ 3 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->add_user()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 22:48:35 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_email(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_email()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 22:48:35 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_email(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_email()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 22:48:38 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_email(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_email()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 22:48:39 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_email(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_email()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 22:48:49 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_email(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_email()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 22:49:41 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_email(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_email()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:11:37 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_email(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_email()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:11:38 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_email(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_email()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:11:39 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_email(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_email()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:12:28 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_email(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_email()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:12:28 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_email(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_email()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:12:58 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_email(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_email()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:12:58 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_email(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_email()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:12:58 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_email(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_email()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:13:12 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_email(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_email()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:13:48 --> Undefined variable: email
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 67.
+ 1 ROOTPATH\Modules\Users\Controllers\UsersController.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: email', 'ROOTPATH\\Modules\\Users\\Controllers\\UsersController.php', 67, [])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_email()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:15:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_email()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:24:11 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_username(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_username()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:24:11 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_username(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_username()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:24:11 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_username(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_username()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:24:11 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_username(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_username()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:24:13 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_username(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_username()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:24:14 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_username(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_username()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:24:14 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_username(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_username()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:24:14 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_username(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_username()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:24:15 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_username(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_username()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:24:15 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_username(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_username()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:24:15 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_username(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_username()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:24:15 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_username(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_username()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:28:37 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_username(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_username()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:28:37 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_username(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_username()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:28:38 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_username(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_username()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:28:38 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_username(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_username()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:28:38 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_username(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_username()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:28:38 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_username(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_username()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:28:39 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_username(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_username()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:28:39 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_username(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_username()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:28:41 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_username(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_username()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:28:41 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_username(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_username()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:28:42 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_username(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_username()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:28:42 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_username(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_username()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:28:43 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_username(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_username()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:28:43 --> Too few arguments to function Modules\Users\Controllers\UsersController::check_username(), 0 passed in C:\laragon\www\csm\system\CodeIgniter.php on line 898 and exactly 1 expected
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->check_username()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:52:50 --> Call to undefined method Modules\Users\Models\UsersModel::check_user
+in SYSTEMPATH\Model.php on line 773.
+ 1 ROOTPATH\Modules\Users\Controllers\UsersController.php(58): CodeIgniter\Model->__call('check_user', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->add_user()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

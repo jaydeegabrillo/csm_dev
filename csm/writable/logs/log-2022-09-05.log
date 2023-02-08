@@ -1,0 +1,164 @@
+CRITICAL - 2022-09-05 00:09:16 --> Call to a member function where() on bool
+in ROOTPATH\Modules\Dashboard\Models\DashboardModel.php on line 18.
+ 1 ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php(39): Modules\Dashboard\Models\DashboardModel->log('1')
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->clock_in()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:16:30 --> Call to a member function where() on bool
+in ROOTPATH\Modules\Dashboard\Models\DashboardModel.php on line 24.
+ 1 ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php(39): Modules\Dashboard\Models\DashboardModel->log('1')
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->clock_in()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:19:21 --> Call to a member function where() on bool
+in ROOTPATH\Modules\Dashboard\Models\DashboardModel.php on line 24.
+ 1 ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php(39): Modules\Dashboard\Models\DashboardModel->log('1')
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->clock_in()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:20:13 --> Call to a member function where() on bool
+in ROOTPATH\Modules\Dashboard\Models\DashboardModel.php on line 19.
+ 1 ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php(39): Modules\Dashboard\Models\DashboardModel->log('1')
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->clock_in()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:20:21 --> Call to a member function where() on bool
+in ROOTPATH\Modules\Dashboard\Models\DashboardModel.php on line 19.
+ 1 ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php(39): Modules\Dashboard\Models\DashboardModel->log('1')
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->clock_in()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:21:14 --> Call to a member function where() on bool
+in ROOTPATH\Modules\Dashboard\Models\DashboardModel.php on line 18.
+ 1 ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php(39): Modules\Dashboard\Models\DashboardModel->log('1')
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->clock_in()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:21:27 --> Call to a member function where() on bool
+in ROOTPATH\Modules\Dashboard\Models\DashboardModel.php on line 18.
+ 1 ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php(39): Modules\Dashboard\Models\DashboardModel->log('1')
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->clock_in()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:21:40 --> Call to a member function where() on bool
+in ROOTPATH\Modules\Dashboard\Models\DashboardModel.php on line 18.
+ 1 ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php(39): Modules\Dashboard\Models\DashboardModel->log('1')
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->clock_in()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 18:23:16 --> Call to a member function row() on array
+in ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 18:29:14 --> Call to a member function row() on array
+in ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 18:29:56 --> Undefined index: clock_in
+in ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php on line 26.
+ 1 ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: clock_in', 'ROOTPATH\\Modules\\Dashboard\\Controllers\\DashboardController.php', 26, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 18:30:42 --> Undefined index: clock_in
+in ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php on line 26.
+ 1 ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: clock_in', 'ROOTPATH\\Modules\\Dashboard\\Controllers\\DashboardController.php', 26, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 18:31:10 --> Cannot use object of type stdClass as array
+in ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 18:48:26 --> date() expects parameter 2 to be int, string given
+in ROOTPATH\Modules\Dashboard\Views\index.php on line 30.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date() expects parameter 2 to be int, string given', 'ROOTPATH\\Modules\\Dashboard\\Views\\index.php', 30, [...])
+ 2 ROOTPATH\Modules\Dashboard\Views\index.php(30): date('1662376154', 'h:i A')
+ 3 SYSTEMPATH\View\View.php(213): include('ROOTPATH\\Modules\\Dashboard\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('\\Modules\\Dashboard\\Views\\index', [], true)
+ 6 ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php(32): view('\\Modules\\Dashboard\\Views\\index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 18:48:52 --> Undefined variable: time_clocked
+in ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php on line 26.
+ 1 ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: time_clocked', 'ROOTPATH\\Modules\\Dashboard\\Controllers\\DashboardController.php', 26, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 18:49:39 --> syntax error, unexpected '?>'
+in ROOTPATH\Modules\Dashboard\Views\index.php on line 31.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('\\Modules\\Dashboard\\Views\\index', [], true)
+ 3 ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php(32): view('\\Modules\\Dashboard\\Views\\index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 18:52:48 --> syntax error, unexpected '?>'
+in ROOTPATH\Modules\Dashboard\Views\index.php on line 31.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('\\Modules\\Dashboard\\Views\\index', [], true)
+ 3 ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php(32): view('\\Modules\\Dashboard\\Views\\index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 18:53:00 --> syntax error, unexpected '?>'
+in ROOTPATH\Modules\Dashboard\Views\index.php on line 31.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('\\Modules\\Dashboard\\Views\\index', [], true)
+ 3 ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php(32): view('\\Modules\\Dashboard\\Views\\index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 18:53:13 --> syntax error, unexpected '?>'
+in ROOTPATH\Modules\Dashboard\Views\index.php on line 30.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('\\Modules\\Dashboard\\Views\\index', [], true)
+ 3 ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php(32): view('\\Modules\\Dashboard\\Views\\index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 18:53:22 --> syntax error, unexpected '?>'
+in ROOTPATH\Modules\Dashboard\Views\index.php on line 30.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('\\Modules\\Dashboard\\Views\\index', [], true)
+ 3 ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php(32): view('\\Modules\\Dashboard\\Views\\index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 18:55:42 --> date() expects parameter 2 to be int, string given
+in ROOTPATH\Modules\Dashboard\Views\index.php on line 30.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date() expects parameter 2 to be int, string given', 'ROOTPATH\\Modules\\Dashboard\\Views\\index.php', 30, [...])
+ 2 ROOTPATH\Modules\Dashboard\Views\index.php(30): date('1662376154', 'h:i A')
+ 3 SYSTEMPATH\View\View.php(213): include('ROOTPATH\\Modules\\Dashboard\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('\\Modules\\Dashboard\\Views\\index', [], true)
+ 6 ROOTPATH\Modules\Dashboard\Controllers\DashboardController.php(32): view('\\Modules\\Dashboard\\Views\\index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): Modules\Dashboard\Controllers\DashboardController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

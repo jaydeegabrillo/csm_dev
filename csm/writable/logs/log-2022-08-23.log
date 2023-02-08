@@ -1,0 +1,32 @@
+CRITICAL - 2022-08-23 23:24:48 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 ROOTPATH\Modules\Users\Controllers\UsersController.php(55): CodeIgniter\Model->__call('add_user', [])
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->add_user()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-23 23:24:53 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 ROOTPATH\Modules\Users\Controllers\UsersController.php(55): CodeIgniter\Model->__call('add_user', [])
+ 4 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->add_user()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-23 23:39:07 --> Invalid argument supplied for foreach()
+in ROOTPATH\Modules\Users\Controllers\UsersController.php on line 49.
+ 1 ROOTPATH\Modules\Users\Controllers\UsersController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'ROOTPATH\\Modules\\Users\\Controllers\\UsersController.php', 49, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->add_user()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-23 23:59:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getNumRows()
+in ROOTPATH\Modules\Users\Models\UsersModel.php on line 16.
+ 1 ROOTPATH\Modules\Users\Controllers\UsersController.php(54): Modules\Users\Models\UsersModel->check_user('test@test.com')
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Users\Controllers\UsersController->add_user()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\UsersController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

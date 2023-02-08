@@ -1,0 +1,91 @@
+CRITICAL - 2022-09-29 21:07:44 --> Undefined variable: data
+in ROOTPATH\Modules\Clients\Controllers\ClientsController.php on line 102.
+ 1 ROOTPATH\Modules\Clients\Controllers\ClientsController.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'ROOTPATH\\Modules\\Clients\\Controllers\\ClientsController.php', 102, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Clients\Controllers\ClientsController->save_client()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Clients\Controllers\ClientsController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 21:07:47 --> Undefined variable: data
+in ROOTPATH\Modules\Clients\Controllers\ClientsController.php on line 102.
+ 1 ROOTPATH\Modules\Clients\Controllers\ClientsController.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'ROOTPATH\\Modules\\Clients\\Controllers\\ClientsController.php', 102, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Clients\Controllers\ClientsController->save_client()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Clients\Controllers\ClientsController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 21:07:48 --> Undefined variable: data
+in ROOTPATH\Modules\Clients\Controllers\ClientsController.php on line 102.
+ 1 ROOTPATH\Modules\Clients\Controllers\ClientsController.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'ROOTPATH\\Modules\\Clients\\Controllers\\ClientsController.php', 102, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Clients\Controllers\ClientsController->save_client()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Clients\Controllers\ClientsController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 21:08:22 --> Undefined variable: data
+in ROOTPATH\Modules\Clients\Controllers\ClientsController.php on line 102.
+ 1 ROOTPATH\Modules\Clients\Controllers\ClientsController.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'ROOTPATH\\Modules\\Clients\\Controllers\\ClientsController.php', 102, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Clients\Controllers\ClientsController->save_client()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Clients\Controllers\ClientsController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 21:08:23 --> Undefined variable: data
+in ROOTPATH\Modules\Clients\Controllers\ClientsController.php on line 102.
+ 1 ROOTPATH\Modules\Clients\Controllers\ClientsController.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'ROOTPATH\\Modules\\Clients\\Controllers\\ClientsController.php', 102, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Clients\Controllers\ClientsController->save_client()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Clients\Controllers\ClientsController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 21:08:24 --> Undefined variable: data
+in ROOTPATH\Modules\Clients\Controllers\ClientsController.php on line 102.
+ 1 ROOTPATH\Modules\Clients\Controllers\ClientsController.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'ROOTPATH\\Modules\\Clients\\Controllers\\ClientsController.php', 102, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Clients\Controllers\ClientsController->save_client()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Clients\Controllers\ClientsController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 21:08:25 --> Undefined variable: data
+in ROOTPATH\Modules\Clients\Controllers\ClientsController.php on line 102.
+ 1 ROOTPATH\Modules\Clients\Controllers\ClientsController.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'ROOTPATH\\Modules\\Clients\\Controllers\\ClientsController.php', 102, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Clients\Controllers\ClientsController->save_client()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Clients\Controllers\ClientsController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 21:08:26 --> Undefined variable: data
+in ROOTPATH\Modules\Clients\Controllers\ClientsController.php on line 102.
+ 1 ROOTPATH\Modules\Clients\Controllers\ClientsController.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'ROOTPATH\\Modules\\Clients\\Controllers\\ClientsController.php', 102, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Clients\Controllers\ClientsController->save_client()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Clients\Controllers\ClientsController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 22:13:16 --> Undefined variable: data
+in ROOTPATH\Modules\Clients\Controllers\ClientsController.php on line 119.
+ 1 ROOTPATH\Modules\Clients\Controllers\ClientsController.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'ROOTPATH\\Modules\\Clients\\Controllers\\ClientsController.php', 119, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Clients\Controllers\ClientsController->save_client()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Clients\Controllers\ClientsController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 22:13:17 --> Undefined variable: data
+in ROOTPATH\Modules\Clients\Controllers\ClientsController.php on line 119.
+ 1 ROOTPATH\Modules\Clients\Controllers\ClientsController.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'ROOTPATH\\Modules\\Clients\\Controllers\\ClientsController.php', 119, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Clients\Controllers\ClientsController->save_client()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Clients\Controllers\ClientsController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 22:13:17 --> Undefined variable: data
+in ROOTPATH\Modules\Clients\Controllers\ClientsController.php on line 119.
+ 1 ROOTPATH\Modules\Clients\Controllers\ClientsController.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'ROOTPATH\\Modules\\Clients\\Controllers\\ClientsController.php', 119, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Clients\Controllers\ClientsController->save_client()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Clients\Controllers\ClientsController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 22:13:18 --> Undefined variable: data
+in ROOTPATH\Modules\Clients\Controllers\ClientsController.php on line 119.
+ 1 ROOTPATH\Modules\Clients\Controllers\ClientsController.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'ROOTPATH\\Modules\\Clients\\Controllers\\ClientsController.php', 119, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Clients\Controllers\ClientsController->save_client()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Clients\Controllers\ClientsController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 22:13:19 --> Undefined variable: data
+in ROOTPATH\Modules\Clients\Controllers\ClientsController.php on line 119.
+ 1 ROOTPATH\Modules\Clients\Controllers\ClientsController.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'ROOTPATH\\Modules\\Clients\\Controllers\\ClientsController.php', 119, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Modules\Clients\Controllers\ClientsController->save_client()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Modules\Clients\Controllers\ClientsController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
