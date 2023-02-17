@@ -41,7 +41,7 @@ class AssignmentsController extends BaseController
             foreach ($this->request->getVar() as $key => $value) {
                 $data[$key] = $value;
             }
-          
+
           	unset($data['/assignments/save_assignment']);
 
             if(isset($id) && $id != NULL){
@@ -84,10 +84,10 @@ class AssignmentsController extends BaseController
 
     public function get_assignment(){
         $id = $this->request->getVar('id');
-        
+
         if($id){
             $result = $this->assignments_model->get_assignment($id);
-            
+
             echo ($result) ? json_encode($result[0]) : 0;
         }
     }
@@ -95,29 +95,37 @@ class AssignmentsController extends BaseController
     public function get_staff(){
         $data = array();
         $staff = array();
-        
+
         foreach ($this->request->getVar() as $key => $value) {
             $data[$key] = $value;
         }
 
         if($data['start_date'] != '' || $data['end_date'] != '' || $data['time_start'] != '' || $data['time_end'] != ''){
             $availability = $this->assignments_model->get_availability($data);
-          
+
             foreach ($availability as $ind => $available) {
-                array_push($staff, $available);
-                if($data['time_start'] >= $available->time_start && $data['time_start'] <= $available->time_end){
+                $available_time_start = date('h:i', strtotime($available->time_start));
+                $available_time_end = date('h:i', strtotime($available->time_end));
+                $obj = (object) array(
+                    'id' => '',
+                    'name' => 'No staff available'
+                );
+
+                if($data['time_start'] >= $available_time_start && $data['time_start'] <= $available_time_end){
                     if($data['start_date'] >= $available->start_date && $data['start_date'] <= $available->end_date){
-                        // array_push($staff, )
-                        // echo json_encode(array('id' => '', 'name' => 'No Staff Available'));
+                        array_push($staff,$obj);
                     }else{
                         array_push($staff, $available);
                     }
                 }else{
-                    array_push($staff, $available);
+                    if($data['time_end'] >= $available_time_start && ($data['time_end'] <= $available_time_end || $data['time_end'] >= $available_time_end)){
+                        array_push($staff,$obj);
+                    }else{
+                        array_push($staff, $available);
+                    }
                 }
             }
         }
-        
 
         echo json_encode($staff);
     }

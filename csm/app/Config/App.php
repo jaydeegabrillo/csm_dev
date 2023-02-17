@@ -24,7 +24,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'https://dev.delsanva.com/';
+    public $baseURL = 'https://csm_server.test/';
 
     /**
      * --------------------------------------------------------------------------

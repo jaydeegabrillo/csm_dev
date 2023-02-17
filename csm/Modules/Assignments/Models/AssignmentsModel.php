@@ -78,7 +78,7 @@ class AssignmentsModel extends Model
     public function get_availability($data = array()){
         $db = \Config\Database::connect();
 
-        return $user = $db->table('users u')->select('u.id, CONCAT(u.first_name, " ", u.last_name) AS name, a.start_date, a.end_date, a.time_start, a.time_end')->join('assignments a', 'a.assigned_user = u.id','left')->where('u.position_id', $data['id'])->where('a.deleted', 0)->get()->getResult();
+        return $user = $db->table('users u')->select('u.id, CONCAT(u.first_name, " ", u.last_name) AS name, a.start_date, a.end_date, a.time_start, a.time_end')->join('assignments a', 'a.assigned_user = u.id','left')->where('u.position_id', $data['id'])->get()->getResult();
         // return $user = $db->table('users u')->select('u.id, CONCAT(u.first_name, " ", u.last_name) AS name, a.start_date, a.end_date, a.time_start, a.time_end')->join('assignments a', 'a.assigned_user = u.id','left')->where('u.position_id', $data['id'])->get()->getResult();
     }
 }

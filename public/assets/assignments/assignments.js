@@ -22,7 +22,7 @@ $(document).ready(function () {
         var end_date = $('#end_date').val()
         var time_start = $('#time_start').val()
         var time_end = $('#time_end').val()
-        
+
         var data = {
             'id': specialty,
             'start_date': start_date,
@@ -30,8 +30,6 @@ $(document).ready(function () {
             'time_start': time_start,
             'time_end': time_end
         };
-
-		console.log(data);
 
         if(start_date === '' || end_date === '' || time_start === '' || time_end === ''){
             // $("#assigned_user").empty().append('<option></option><option disabled>No Staff Available</option>');
@@ -41,12 +39,11 @@ $(document).ready(function () {
                 url: '/assignments/get_staff/',
                 data: data,
                 success: function (result) {
+                    $('#assigned_user').html('');
+
                     if (result) {
                         $.each(JSON.parse(result), function (index, value) {
-                            $('#assigned_user option').attr('disabled',true);
-                            $('#assigned_user option[value="'+value.id+'"]').removeAttr('disabled');
-                            // $('#assigned_user').append('<option value="'+value.id+'" >'+value.name+'</option>')
-                            // $('.staff_option['+id+']').attr('disabled', false)
+                            $('#assigned_user').append('<option value="'+value.id+'" >'+value.name+'</option>')
                         });
                     }
                 },
@@ -105,7 +102,7 @@ $(document).ready(function () {
             data: { 'id': id },
             success: function (result) {
                 if (result) {
-                    
+
                     $.each(JSON.parse(result), function (index, value) {
                         if ($('#' + index).is("select")) {
                             $("select[name='" + index + "']").val(value).change()
