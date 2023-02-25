@@ -27,7 +27,7 @@ class DashboardController extends BaseController
         $pages['modal'] = '\Modules\Dashboard\Views\modals';
         $script['css_scripts'] = array();
         $script['js_scripts'] = array();
-        
+
         array_push($script['css_scripts'],'/dashboard/dashboard.css');
         array_push($script['js_scripts'],'/dashboard/dashboard.js');
         $this->page_templates($pages,$data,$script);
@@ -38,7 +38,7 @@ class DashboardController extends BaseController
 
         if($assignment_id){
             $check = $this->dashboard_model->log($user_id, $assignment_id);
-            
+
             if($check){
                 echo json_encode(array('type' => 'update'));
             }else{
@@ -81,7 +81,7 @@ class DashboardController extends BaseController
                     );
                 }
             }
-            
+
             $update = $this->dashboard_model->edit_log($id, $data);
 
             if($update){
@@ -96,13 +96,13 @@ class DashboardController extends BaseController
         $position = $this->session->get('position');
         $id = ($position <= 2) ? 0 : $this->session->get('user_id');
         $builder = $this->dashboard_model->timesheet($id);
-        
+
         return DataTable::of($builder)
         ->edit('time',function($row){
             $time = explode("-",$row->time);
             $time_start = date('H:i A', strtotime($time[0]));
             $time_end = date('H:i A', strtotime($time[1]));
-            
+
             return $time_start . "-" . $time_end;
         })
         ->edit('in', function($row){
@@ -127,8 +127,12 @@ class DashboardController extends BaseController
             return date('Y-m-d');
         })
         ->add('action',function($row){
-            return '<button type="button" class="btn btn-primary btn-sm edit_log_modal" data-action="edit" data-toggle="modal" data-target="#edit_log_modal" data-id="'.$row->id.'"><i class="fa fa-edit"></i>Edit</button>
-                    <button type="button" class="btn btn-danger btn-sm delete_log_modal" data-action="delete" data-toggle="modal" data-target="#delete_log_modal" data-id="'.$row->id.'"><i class="fa fa-trash"></i>Delete</button>';
+            if($this->session->get('position') <= 2){
+                return '<button type="button" class="btn btn-primary btn-sm edit_log_modal" data-action="edit" data-toggle="modal" data-target="#edit_log_modal" data-id="'.$row->id.'"><i class="fa fa-edit"></i>Edit</button>
+                <button type="button" class="btn btn-danger btn-sm delete_log_modal" data-action="delete" data-toggle="modal" data-target="#delete_log_modal" data-id="'.$row->id.'"><i class="fa fa-trash"></i>Delete</button>';
+            } else {
+                return '';
+            }
         }, 'last')
         ->toJson();
     }

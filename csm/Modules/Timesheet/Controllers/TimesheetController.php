@@ -23,7 +23,7 @@ class TimesheetController extends BaseController
     public function index()
     {
         $id = $this->_user['user_id'];
-        
+
         $builder = $this->timesheet_model->timesheet($id);
         $data['title'] = 'Timesheet';
         $script['css_scripts'] = array();
@@ -32,7 +32,7 @@ class TimesheetController extends BaseController
         $pages['modal'] = '\Modules\Timesheet\Views\modals';
         array_push($script['css_scripts'],'/timesheet/timesheet.css');
         array_push($script['js_scripts'],'/timesheet/timesheet.js');
-        
+
         $this->page_templates($pages,$data,$script);
     }
 
@@ -42,8 +42,21 @@ class TimesheetController extends BaseController
         $end_date = $posted['end_date'];
         $position = $this->session->get('position');
         $id = ($position <= 2) ? 0 : $this->_user['user_id'];
-        $data['timesheet'] = $this->timesheet_model->timesheet_pdf($id,$posted)->get()->getResult();
-        
+        $timesheet = $this->timesheet_model->timesheet_pdf($id,$posted)->get()->getResult();
+        // $data['timesheet'] = $timesheet;
+        $ctr = 0;
+        $data['timesheet'][$ctr] = array();
+
+        foreach ($timesheet as $key => $value) {
+            if($key > 0){
+                if($value->name != $timesheet[$key-1]->name){
+                    $ctr += 1;
+                    $data['timesheet'][$ctr] = array();
+                }
+            }
+            array_push($data['timesheet'][$ctr], $value);
+        }
+
         $dompdf = new Dompdf();
         $dompdf->loadHtml(view('\Modules\Timesheet\Views\timesheet_pdf', $data));
         $dompdf->setPaper('A4', 'landscape');
@@ -56,7 +69,7 @@ class TimesheetController extends BaseController
         $position = $this->session->get('position');
         $id = ($position <= 2) ? 0 : $this->_user['user_id'];
         $builder = $this->timesheet_model->timesheet($id);
-       
+
         return DataTable::of($builder)
             ->edit('date', function($row){
                 $date = ($row->date) ? $row->date : 0;
@@ -69,7 +82,7 @@ class TimesheetController extends BaseController
                 }, 'last')
             ->edit('clock_out', function($row){
                 $clock_out = ($row->clock_out) ? date("g:i A", strtotime($row->clock_out)) : 'N/A';
-                
+
                 return $clock_out;
                 }, 'last')
             ->add('hours', function($row){
@@ -78,13 +91,13 @@ class TimesheetController extends BaseController
                 }else{
                     $start = strtotime($row->clock_in);
                     $end = strtotime($row->clock_out);
-    
+
                     $hours = date('H:i:s', $end-$start);
                     $duration = $end-$start;
                     $hours = (int)($duration/60/60);
                     $minutes = (int)($duration/60)-$hours*60;
 
-                    return $hours." hrs ".$minutes." mins"; 
+                    return $hours." hrs ".$minutes." mins";
                 }
                 }, 'last')
             ->toJson();

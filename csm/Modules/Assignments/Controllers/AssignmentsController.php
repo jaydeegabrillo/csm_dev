@@ -149,8 +149,12 @@ class AssignmentsController extends BaseController
           return $time_start . ' - ' . $time_end;
         })
         ->add('action',function($row){
-            return '<button type="button" class="btn btn-warning btn-sm view_assignment" data-toggle="modal" data-target="#add_assignment_modal" data-id="'.$row->id.'"><i class="fa fa-eye"></i>View</button>
-                    <button type="button" class="btn btn-primary btn-sm edit_assignment" data-toggle="modal" data-target="#add_assignment_modal" data-id="'.$row->id.'"><i class="fa fa-edit"></i>Edit</button>';
+            if($this->session->get('position') <= 2){
+                return '<button type="button" class="btn btn-warning btn-sm view_assignment" data-toggle="modal" data-target="#add_assignment_modal" data-id="'.$row->id.'"><i class="fa fa-eye"></i>View</button>
+                <button type="button" class="btn btn-primary btn-sm edit_assignment" data-toggle="modal" data-target="#add_assignment_modal" data-id="'.$row->id.'"><i class="fa fa-edit"></i>Edit</button>';
+            } else {
+                return '';
+            }
         }, 'last')
         ->toJson();
     }

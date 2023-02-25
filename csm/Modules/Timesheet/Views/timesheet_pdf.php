@@ -36,33 +36,31 @@
 <?php $counter = 0; ?>
 <body>
     <h2>Timesheet PDF</h2>
-    <table class="timesheet_table">
-        <thead class="timesheet_header">
-            <th>Client Name</th>
-            <th>Date</th>
-            <th>Time</th>
-            <th>In</th>
-            <th>Out</th>
-            <th>ETC</th>
-            <th>Hours</th>
-        </thead>
-        <tbody>
-            <?php
-            $rendered = '00:00';
-            $etc = '00:00';
-            ?>
-            <?php foreach($timesheet as $key => $value){ 
-                $counter++;
-                
-                ?>
-                <tr class="timesheet_data <?= ($counter % 2 == 0) ? 'evenrow' : 'oddrow' ?>">
-                    <td><?= $value->name ?></td>
-                    <td><?= date('F d, Y' ,strtotime($value->date))?></td>
-                    <td><?= date('h:i a' ,strtotime($value->time_start)) .' - '. date('h:i a' ,strtotime($value->time_end)) ?></td>
-                    <td><?= ($value->clock_in == NULL) ? '-' : date('h:i a', strtotime($value->clock_in)) ?></td>
-                    <td><?= ($value->clock_out == NULL) ? '-' : date('h:i a', strtotime($value->clock_out)) ?></td>
-                    <td>
-                        <?php 
+    <?php foreach($timesheet as $key => $array){ $counter++; ?>
+        <?php
+        $rendered = '00:00';
+        $etc = '00:00';
+        ?>
+        <table class="timesheet_table" style="page-break-after: always;">
+            <thead class="timesheet_header">
+                <th>Client Name</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>In</th>
+                <th>Out</th>
+                <th>ETC</th>
+                <th>Hours</th>
+            </thead>
+            <tbody>
+                <?php foreach($array as $key2 => $value){ ?>
+                    <tr class="timesheet_data <?= ($counter % 2 == 0) ? 'evenrow' : 'oddrow' ?>">
+                        <td><?= $value->name ?></td>
+                        <td><?= date('F d, Y' ,strtotime($value->date))?></td>
+                        <td><?= date('h:i a' ,strtotime($value->time_start)) .' - '. date('h:i a' ,strtotime($value->time_end)) ?></td>
+                        <td><?= ($value->clock_in == NULL) ? '-' : date('h:i a', strtotime($value->clock_in)) ?></td>
+                        <td><?= ($value->clock_out == NULL) ? '-' : date('h:i a', strtotime($value->clock_out)) ?></td>
+                        <td>
+                            <?php
                             $start = strtotime($value->time_start);
                             $end = strtotime($value->time_end);
 
@@ -73,13 +71,13 @@
                             $hours = ($hours <= 9) ? '0'.$hours : $hours;
                             $minutes = ($minutes <= 9) ? '0'.$minutes : $minutes;
                             $etc = date('H:i', strtotime($etc."+$hours hours +$minutes minutes"));
-                            
+
                             // $total_etc += date('h:i',strtotime("$hours:$minutes"));
                             echo $hours." hrs ".$minutes." mins";
-                        ?>
-                    </td>
-                    <td>
-                        <?php 
+                            ?>
+                        </td>
+                        <td>
+                            <?php
                             if($value->clock_in != NULL && $value->clock_out != NULL){
                                 $start = strtotime($value->clock_in);
                                 $end = strtotime($value->clock_out);
@@ -92,21 +90,22 @@
                                 $minutes = ($minutes <= 9) ? '0'.$minutes : $minutes;
                                 $rendered = date('H:i', strtotime($rendered."+$hours hours +$minutes minutes"));
 
-                                echo $hours." hrs ".$minutes." mins"; 
+                                echo $hours." hrs ".$minutes." mins";
                             }else{
                                 echo "-";
-                            } 
-                        ?>
-                    </td>
+                            }
+                            ?>
+                        </td>
+                    </tr>
+                <?php } ?>
+                <tr class="timesheet_data evenrow" style="text-align:right !important">
+                    <td colspan="5">Total</td>
+                    <td><?= $etc ?></td>
+                    <td><?= $rendered ?></td>
                 </tr>
-            <?php } ?>
-            <tr class="timesheet_data evenrow" style="text-align:right !important">
-                <td colspan="5">Total</td>
-                <td><?= $etc ?></td>
-                <td><?= $rendered ?></td>
-            </tr>
-        </tbody>
-    </table>
+            </tbody>
+        </table>
+    <?php } ?>
   </div>
 </body>
 </html>

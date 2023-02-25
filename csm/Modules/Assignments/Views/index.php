@@ -13,8 +13,8 @@
                 </div>
             </div>
             <!-- End Bread crumb and right sidebar toggle -->
-            
-            
+
+
             <!-- Sales Chart and browser state-->
             <div class="row">
                 <!-- Column -->
@@ -25,7 +25,9 @@
                                 <div>
                                     <h5 class="card-title m-b-0">Assignments Table</h5>
                                     <div class="col-lg-1 pull-right">
-                                        <button type="button" class="btn btn-primary btn-sm add_assignment" data-toggle="modal" data-target="#add_assignment_modal">Add Assignment</button>
+                                        <?php if($position <= 2){ ?>
+                                            <button type="button" class="btn btn-primary btn-sm add_assignment" data-toggle="modal" data-target="#add_assignment_modal">Add Assignment</button>
+                                        <?php } ?>
                                     </div>
                                     <table id="assignments_table" class="table table-striped table-bordered" cellspacing="0" width="100%">
                                     <thead>
@@ -59,7 +61,7 @@
             <!-- End Page Content -->
         </div>
         <!-- End Container fluid  -->
-        
+
         <!-- footer -->
         <footer class="footer"> © 2018 Adminwrap by wrappixel.com </footer>
         <!-- End footer -->
@@ -67,4 +69,3 @@
     <!-- End Page wrapper  -->
 </div>
 <!-- End Wrapper -->
-
