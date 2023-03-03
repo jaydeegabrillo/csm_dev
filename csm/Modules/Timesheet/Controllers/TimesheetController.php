@@ -43,7 +43,6 @@ class TimesheetController extends BaseController
         $position = $this->session->get('position');
         $id = ($position <= 2) ? 0 : $this->_user['user_id'];
         $timesheet = $this->timesheet_model->timesheet_pdf($id,$posted)->get()->getResult();
-        // $data['timesheet'] = $timesheet;
         $ctr = 0;
         $data['timesheet'][$ctr] = array();
 

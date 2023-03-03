@@ -13,8 +13,8 @@
                 </div>
             </div>
             <!-- End Bread crumb and right sidebar toggle -->
-            
-            
+
+
             <!-- Sales Chart and browser state-->
             <div class="row">
                 <!-- Column -->
@@ -61,6 +61,10 @@
                             <div class="no-block">
                                 <div>
                                     <h5 class="card-title m-b-0">Schedules Today</h5>
+                                    <div class="col-lg-2 pull-right">
+                                        <label for="search_date">Search Date: </label>
+                                        <input id="search_date" class="form-control" type="date" name="search_date">
+                                    </div>
                                     <table id="dashboard_table" class="table table-striped table-bordered" cellspacing="0" width="100%">
                                         <thead>
                                             <tr>
@@ -94,11 +98,11 @@
                     </div>
                 </div>
             </div>
-            
+
             <!-- End Page Content -->
         </div>
         <!-- End Container fluid  -->
-        
+
         <!-- footer -->
         <footer class="footer"> © 2018 Adminwrap by wrappixel.com </footer>
         <!-- End footer -->
@@ -106,4 +110,3 @@
     <!-- End Page wrapper  -->
 </div>
 <!-- End Wrapper -->
-

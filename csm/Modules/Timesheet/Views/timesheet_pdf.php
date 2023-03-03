@@ -33,7 +33,10 @@
         }
     </style>
 </head>
-<?php $counter = 0; ?>
+<?php
+$counter = 0;
+$array_count = count($timesheet);
+?>
 <body>
     <h2>Timesheet PDF</h2>
     <?php foreach($timesheet as $key => $array){ $counter++; ?>
@@ -41,7 +44,7 @@
         $rendered = '00:00';
         $etc = '00:00';
         ?>
-        <table class="timesheet_table" style="page-break-after: always;">
+        <table class="timesheet_table" style="<?= ($counter < $array_count) ? 'page-break-after:always' : '' ; ?>">
             <thead class="timesheet_header">
                 <th>Client Name</th>
                 <th>Date</th>

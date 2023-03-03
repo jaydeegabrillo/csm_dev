@@ -20,5 +20,5 @@ $(document).ready(function () {
         var url = slug + "/timesheet_pdf?" + data;
         window.open(url, '_blank');
     });
-    
+
 });

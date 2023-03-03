@@ -33,11 +33,11 @@ class DashboardController extends BaseController
         $this->page_templates($pages,$data,$script);
     }
 
-    public function clock_in($assignment_id = 0){
+    public function clock_in($assignment_id = 0, $date = ''){
         $user_id = $this->session->get()['user_id'];
 
         if($assignment_id){
-            $check = $this->dashboard_model->log($user_id, $assignment_id);
+            $check = $this->dashboard_model->log($user_id, $assignment_id, $date);
 
             if($check){
                 echo json_encode(array('type' => 'update'));
@@ -64,25 +64,27 @@ class DashboardController extends BaseController
             $id = $this->request->getVar('id');
             $in = $this->request->getVar('in');
             $out = $this->request->getVar('out');
+            $date = $this->request->getVar('date');
+            $day = ($date == '') ? 'Y-m-d' : date('Y-m-d', strtotime($date));
 
             if($in != '' && $out != ''){
                 $data = array(
-                    'clock_in' => date('Y-m-d h:i:s', strtotime($in)),
-                    'clock_out' => date('Y-m-d h:i:s',strtotime($out))
+                    'clock_in' => date($day.' h:i:s', strtotime($in)),
+                    'clock_out' => date($day.' h:i:s',strtotime($out))
                 );
-            }else{
+            } else {
                 if($in == '' && $out != ''){
                     $data = array(
-                        'clock_out' => date('Y-m-d h:i:s',strtotime($out))
+                        'clock_out' => date($day.' h:i:s',strtotime($out))
                     );
                 }else{
                     $data = array(
-                        'clock_in' => date('Y-m-d h:i:s',strtotime($in))
+                        'clock_in' => date($day.' h:i:s',strtotime($in))
                     );
                 }
             }
 
-            $update = $this->dashboard_model->edit_log($id, $data);
+            $update = $this->dashboard_model->edit_log($id, $data, $date);
 
             if($update){
                 echo json_encode(array('success' => true));
@@ -95,9 +97,18 @@ class DashboardController extends BaseController
     public function ajaxDataTables(){
         $position = $this->session->get('position');
         $id = ($position <= 2) ? 0 : $this->session->get('user_id');
-        $builder = $this->dashboard_model->timesheet($id);
+        $data = array(
+            'search_date' => $this->request->getVar('search_date')
+        );
+
+        $builder = $this->dashboard_model->timesheet($id, $data);
 
         return DataTable::of($builder)
+        ->filter(function ($builder, $request){
+            if($request->search_date){
+                $builder->where('date', $request->search_date);
+            }
+        })
         ->edit('time',function($row){
             $time = explode("-",$row->time);
             $time_start = date('H:i A', strtotime($time[0]));
@@ -106,18 +117,20 @@ class DashboardController extends BaseController
             return $time_start . "-" . $time_end;
         })
         ->edit('in', function($row){
+            $date = ($row->date != date('Y-m-d')) ? $row->date : date('Y-m-d');
             if($row->in == ''){
-                return '<span class="clock_in" data-id="'.$row->id.'"><i class="fa fa-clock"></i></span>';
+                return '<span class="clock_in" data-id="'.$row->id.'" data-date="'.$date.'"><i class="fa fa-clock"></i></span>';
             }else{
                 return date('H:i A', strtotime($row->in));
             }
         })
         ->edit('out', function($row){
+            $date = ($row->date != date('Y-m-d')) ? $row->date : date('Y-m-d');
             if($row->in == '' && $row->out == ''){
                 return '<span class="clock_out" data-id="'.$row->id.'">-</span>';
             }else{
                 if($row->out == '' || $row->out == '0000-00-00 00:00:00'){
-                    return '<span class="clock_out" data-id="'.$row->id.'"><i class="fa fa-clock"></i></span>';
+                    return '<span class="clock_out" data-id="'.$row->id.'" data-date="'.$date.'"><i class="fa fa-clock"></i></span>';
                 }else{
                     return date('H:i A', strtotime($row->out));
                 }
@@ -127,9 +140,12 @@ class DashboardController extends BaseController
             return date('Y-m-d');
         })
         ->add('action',function($row){
+            $in = ($row->in == '') ? '' : date("H:i", strtotime($row->in));
+            $out = ($row->out == '') ? '' : date("H:i", strtotime($row->out));
+            $date = ($row->date == '') ? date('Y-m-d') : $row->date;
             if($this->session->get('position') <= 2){
-                return '<button type="button" class="btn btn-primary btn-sm edit_log_modal" data-action="edit" data-toggle="modal" data-target="#edit_log_modal" data-id="'.$row->id.'"><i class="fa fa-edit"></i>Edit</button>
-                <button type="button" class="btn btn-danger btn-sm delete_log_modal" data-action="delete" data-toggle="modal" data-target="#delete_log_modal" data-id="'.$row->id.'"><i class="fa fa-trash"></i>Delete</button>';
+                return '<button type="button" class="btn btn-primary btn-sm edit_log_modal" data-in="'.$in.'" data-out="'.$out.'" data-date="'.$date.'" data-action="edit" data-toggle="modal" data-target="#edit_log_modal" data-id="'.$row->id.'"><i class="fa fa-edit"></i>Edit</button>
+                <button type="button" class="btn btn-danger btn-sm delete_log_modal" data-action="delete" data-toggle="modal" data-target="#delete_log_modal" data-id="'.$row->id.'" data-date="'.$date.'"><i class="fa fa-trash"></i>Delete</button>';
             } else {
                 return '';
             }

@@ -20,7 +20,7 @@ class TimesheetModel extends Model
         $db = \Config\Database::connect();
 
         if($id == 0){
-            $timesheet = $db->table('daily_logs d')->select('date, clock_in, clock_out, a.time_start, a.time_end, CONCAT(c.first_name, " ", c.last_name) AS name')->join('assignments a', 'd.assignment_id = a.id')->join('clients c', 'a.client = c.id')->orderBy('name');
+            $timesheet = $db->table('daily_logs d')->select('date, clock_in, clock_out, a.time_start, a.time_end, CONCAT(c.first_name, " ", c.last_name) AS name')->join('assignments a', 'd.assignment_id = a.id')->where('date >=', $data['start_date'])->where('date <=', $data['end_date'])->join('clients c', 'a.client = c.id')->orderBy('name');
         }else{
             if($data){
                 $timesheet = $db->table('daily_logs d')->select('date, clock_in, clock_out, a.time_start, a.time_end, CONCAT(c.first_name, " ", c.last_name) AS name')->where('user_id', $id)->where('date >=', $data['start_date'])->where('date <=', $data['end_date'])->join('assignments a', 'd.assignment_id = a.id')->join('clients c', 'a.client = c.id');

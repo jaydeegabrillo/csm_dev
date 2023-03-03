@@ -33,11 +33,15 @@
                             <label for="in">Clock In</label>
                             <input type="hidden" name="id" id="log_id">
                             <input type="time" name="in" class="form-control">
-                        </div>               
+                        </div>
                         <div class="form-group">
                             <label for="out">Clock Out</label>
                             <input type="time" name="out" class="form-control">
-                        </div>               
+                        </div>
+                        <div class="form-group">
+                            <label for="out">Date</label>
+                            <input type="date" name="date" class="form-control" value="<?= date('Y-m-d') ?>" readonly>
+                        </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default waves-effect modal_close" data-dismiss="modal">
